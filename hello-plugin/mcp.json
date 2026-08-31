@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "agw-atlassian": {
+      "type": "streamable-http",
+      "url": "http://localhost:8080/mcp/atlassian"
+    },
+    "agw-github": {
+      "type": "streamable-http",
+      "url": "http://localhost:8080/mcp/github"
+    },
+    "agw-postman": {
+      "type": "streamable-http",
+      "url": "http://localhost:8080/mcp/postman"
+    },    
+  }
+}
